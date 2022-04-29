@@ -63,7 +63,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #24a0ed;
+    background: #ff4040;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -74,7 +74,7 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#eeffff,#99ffff);
+    background: radial-gradient(#fff,#ffd6d6);
 
 }
 .header .row{
@@ -320,7 +320,7 @@ select:focus{
 /* ---------Single product css-------- */
 
 .single-product{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .single-product .col-2 img{
     padding: 0;

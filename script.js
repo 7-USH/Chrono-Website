@@ -1,3 +1,18 @@
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
+const auth = getAuth();
+createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed in 
+    const user = userCredential.user;
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ..
+  });
+
 var menuitems=document.getElementById('menuitems'); //variable for menu icon
 var myrow=document.getElementById('myrow');  //variable for making user friendly with navbar 
 
